@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Sign from './Pages/Sign/Sign';
 
 function App() {
   return (
-    <Sign />
-  );
+		<div data-testid='sign'>
+			<Sign />
+		</div>
+	);
 }
 
 export default App;

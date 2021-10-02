@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import Sign from '../Sign';
 
-test('Renders component Custom Button that contains a data-testid of "button"', () => {
+test('enders div container of SignUp component in the Sign.js file', () => {
 	render(<Sign />);
-	const sign = screen.getByTestId('button');
+	const sign = screen.getByTestId('SignUp');
 	expect(sign).toBeInTheDocument();
 });
