@@ -1,6 +1,46 @@
-# Getting Started with Create React App
+# Credit Key Form
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+## Task Requirments
+This project displays a registration form with the following requirements:
+
+1. Input Registration:
+   1. First Name
+      1. Required
+   2. Last Name
+      1. Required
+   3. Email
+      1. Required
+      2. Checks for valid input
+         1. x@x.x
+   4. Phone Number
+      1. Required
+      2. Checks for valid input
+         1. (XXX) XXX-XXXX
+   5. Password
+      1. Required
+      2. Checks for valid input
+         1. Matching
+         2. One number, one uppercase letter, and 8 characters long
+   6. Password Confirmation
+      1. Required
+      2. Checks for valid input
+         1. Matching
+         2. One number, one uppercase letter, and 8 characters long
+2. Confirmation view on submission
+3. React hook components used
+4. Use of several jest
+   1. Run with yarn test
+5. Public Github that can be cloned and run locally
+6. **BONUS**
+   1. Deploy
+      1. https://credit-key-form.vercel.app/
+
+**There was no database required for this form**
+
+
 
 ## Available Scripts
 
