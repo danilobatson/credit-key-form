@@ -9,7 +9,7 @@ This project displays a registration form with the following requirements:
 1. Input Registration:
    1. First Name
       1. Required
-   2. Last Name
+   2. Last Name 
       1. Required
    3. Email
       1. Required
